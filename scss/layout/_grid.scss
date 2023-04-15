@@ -2,6 +2,10 @@
 // Grid
 // ==========================================================================
 
+.col-6 {
+  flex: 0 0 50%;
+}
+
 .mt-35 {
   margin-top: em(35px);
 }
@@ -87,4 +91,8 @@ img {
 }
 .mfp-move-from-top.mfp-removing.mfp-bg {
   opacity: 0;
+}
+
+button.mfp-arrow {
+  display: none;
 }
