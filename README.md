@@ -1,5 +1,7 @@
 # Seafoam Dreams
 
+> Live link can be found [here](https://codelikeagirl29.github.io/seafoam-dreams/)
+
 My project "Seafoam Dreams" utilizes Sass (Syntactically Awesome Style Sheets), involving website development.
 
 Sass is a powerful CSS preprocessor that allows developers to write more efficient and maintainable stylesheets. By using Sass, developers can write code that is more organized, reusable, and easier to read. This can lead to faster development times and fewer bugs, which ultimately results in a better user experience.
