@@ -1,0 +1,25 @@
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 0.9em;
+}
+
+.fa-code {
+  color: $brilliant-azure;
+}
+
+.fa-heart {
+  color: tomato;
+}
+
+@media (max-width: $break-xs) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

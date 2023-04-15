@@ -1,0 +1,44 @@
+// ==========================================================================
+// Headings
+// ==========================================================================
+
+.site-header {
+  padding: 60px 70px 30px;
+}
+
+.site-header h1 .color-primary {
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: em(5px);
+}
+
+.site-header h1 {
+  font-size: em(34px);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.site-header h1:after {
+  background-color: $pool-blue;
+  border-radius: 0.25rem;
+  margin-top: 0.6rem;
+  content: "";
+  display: block;
+  height: 0.25rem;
+  width: em(42px);
+}
+
+.tagline {
+  margin-top: 1%;
+}
+
+
+@media (max-width: $break-xs) {
+  .site-header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tagline {
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seafoam Dreams</title>
+    <!-- https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- https://fontawesome.com/ -->
+    <link href="https://www.jsdelivr.com/package/npm/font-awesome-animation" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.min.css"> -->
+    <script src="https://kit.fontawesome.com/29b275fb0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/application.css">
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="mt-0 mb-15 title">
+            <span class="color-primary">SEAFOAM</span>
+            <span class="color-gray-2">dreams</span>
+        <em class="tagline color-light-gray">high tides and good vibes.</em>
+        </h1>
+    </header>
+    <!-- Video banner 400 px height -->
+    <div id="video-container">
+        <video autoplay muted loop id="video">
+            <source src="video/ocean-sea-waves.mp4" type="video/mp4">
+        </video>
+        <i id="video-control-button" class="fas fa-pause"></i>
+    </div>
+    <div class="container">
+        <nav class="main-nav">
+            <ul id="inline-popups">
+                <li class="nav-item">
+                    <a href="#intro" data-effect="mfp-move-from-top" class="nav-link" data-aos="fade-right"
+                        data-aos-delay="50" data-aos-duration="1000"> Introduction <i class="fas fa-2x fa-water"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" data-effect="mfp-move-from-top" class="nav-link" id="gallery-link"
+                        data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"> Gallery <i class="far fa-2x fa-images"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" data-effect="mfp-move-from-top" class="nav-link" data-aos="fade-down"
+                        data-aos-easing="linear" data-aos-duration="1500"> Testimonials <i
+                            class="far fa-2x fa-smile"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" data-effect="mfp-move-from-top" class="nav-link" data-aos="fade-up-left"
+                        data-aos-offset="200" data-aos-delay="100" data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"> About <i class="fas fa-2x fa-tint"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" data-effect="mfp-move-from-top" class="nav-link" data-aos="fade-left"
+                        data-aos-delay="50" data-aos-duration="1000"> Contact <i class="far fa-2x fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Popup itself -->
+        <div id="intro" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup"> return home <i class="fas fa-times"></i>
+            </a>
+            <div class="row intro-row">
+                <img src="img/intro.jpg" alt="Image" class="intro-img">
+                <div class="col bg-white intro-pad">
+                    <h2 class="color-primary page-title">Introducing Seafoam Dreams</h2>
+                    <div class="row content-row">
+                        <div class="col-6 intro-col-l">
+                            <p> The ocean is a vast and <a class="link-effect">mysterious world</a> that covers more
+                                than 70% of the Earth's surface. It's a place of incredible beauty and diversity, with
+                                an abundance of marine life and unique ecosystems. From the coral reefs of the tropics
+                                to the icy waters of the poles, the ocean is home to countless fascinating creatures and
+                                awe-inspiring natural wonders. </p>
+                            <p> Despite its <a class="link-effect">importance and grandeur</a>, the ocean is facing a
+                                range of challenges, including pollution, overfishing, and climate change. These threats
+                                are not only damaging the ocean itself, but also having a profound impact on our planet
+                                and its inhabitants. </p>
+                            <!--
+                            <p class="mb-0"></p> -->
+                        </div>
+                        <div class="col-6">
+                            <p class="mb-80"> On this <strong>website</strong>, we will explore the wonders of the
+                                ocean, delve into some of the challenges it faces, and examine the efforts being made to
+                                protect and conserve this vital resource. Whether you're a marine biology enthusiast or
+                                simply someone who loves the beach, join us on a journey to discover the fascinating
+                                world of the ocean. </p>
+                            <p>Refactored by our friend, <a href="https://lindseyk.dev">Lindsey</a>
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary mfp-prevent-close btn-next"> Next Page </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup"> return home <i class="fas fa-times"></i>
+            </a>
+            <div class="row gallery-row">
+                <div class="gallery">
+                    <div class="gallery-container">
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-01.jpg" alt="Image">
+                            <figcaption>
+                                <p>Simplicity is the essence of happiness.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-01.jpg" alt="Image">
+                            <figcaption>
+                                <p>Life shrinks or expands in proportion to one's courage.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-01.jpg" alt="Image">
+                            <figcaption>
+                                <p>Be your own kind of beautiful.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-01.jpg" alt="Image">
+                            <figcaption>
+                                <p>You don't know this new me, I put back my pieces differently.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-02.jpg" alt="Image">
+                            <figcaption>
+                                <p>The world is changed by your example, not your opinion.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-02.jpg" alt="Image">
+                            <figcaption>
+                                <p>Know your limits.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-02.jpg" alt="Image">
+                            <figcaption>
+                                <p>Life is a journey and I am a traveler.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-02.jpg" alt="Image">
+                            <figcaption>
+                                <p>Life doesn't get easier, you just get stronger.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-03.jpg" alt="Image">
+                            <figcaption>
+                                <p>Another fine day ruined by responsibilities.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-03.jpg" alt="Image">
+                            <figcaption>
+                                <p>Be heroes of your own stories.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-03.jpg" alt="Image">
+                            <figcaption>
+                                <p>You are the arcitect of your own destruction.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-04.jpg" alt="Image">
+                            <figcaption>
+                                <p>Even the tiniest flower can have the toughest roots.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-04.jpg" alt="Image">
+                            <figcaption>
+                                <p>The best view comes after the hardest climb.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-04.jpg" alt="Image">
+                            <figcaption>
+                                <p>No guts, no glory, no legend, no story.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-05.jpg" alt="Image">
+                            <figcaption>
+                                <p>If it doesn't challenge you, it doesn't change you.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-05.jpg" alt="Image">
+                            <figcaption>
+                                <p>Say yes, take risks, and live life on your own terms.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-05.jpg" alt="Image">
+                            <figcaption>
+                                <p>When you can't find the sunshine, be the sunshine.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-06.jpg" alt="Image">
+                            <figcaption>
+                                <p>Smile, breathe, and go slowly.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-06.jpg" alt="Image">
+                            <figcaption>
+                                <p>Stop looking for happiness in the same place you just lost it.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-06.jpg" alt="Image">
+                            <figcaption>
+                                <p>Stay strong. Make them wonder how you are still smiling.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-07.jpg" alt="Image">
+                            <figcaption>
+                                <p>There is beauty in simplicity.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-07.jpg" alt="Image">
+                            <figcaption>
+                                <p>Be a warrior in a room of worriers.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-07.jpg" alt="Image">
+                            <figcaption>
+                                <p>Don't be afraid to sparkle a little brighter.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item space">
+                            <img src="img/gallery/space-08.jpg" alt="Image">
+                            <figcaption>
+                                <p>Do whatever makes you happiest!</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-03.jpg" alt="Image">
+                            <figcaption>
+                                <p>You drive me crazy, but I love it.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-04.jpg" alt="Image">
+                            <figcaption>
+                                <p>Good times + crazy friends = Great memories.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-05.jpg" alt="Image">
+                            <figcaption>
+                                <p>Stay positive. Work hard. Make it happen.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-06.jpg" alt="Image">
+                            <figcaption>
+                                <p>Work hard, play harder.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-07.jpg" alt="Image">
+                            <figcaption>
+                                <p>Look for the awesome in each moment.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-08.jpg" alt="Image">
+                            <figcaption>
+                                <p>How we strive for perfection.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item animal">
+                            <img src="img/gallery/animal-08.jpg" alt="Image">
+                            <figcaption>
+                                <p>Life is too short to edit everything.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item building">
+                            <img src="img/gallery/building-08.jpg" alt="Image">
+                            <figcaption>
+                                <p>Enjoying the little things in life.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-chico gallery-item nature">
+                            <img src="img/gallery/nature-09.jpg" alt="Image">
+                            <figcaption>
+                                <p>Choose your fighter.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!-- Gallery navigation and description -->
+                <div class="col gallery-right">
+                    <h2 class="color-primary mt-35 page-title">Gallery</h2>
+                    <div class="gallery-right-inner">
+                        <ul class="gallery-links">
+                            <li>
+                                <a href="#" class="active gallery-link" data-filter="*">
+                                    <i class="fas fa-layer-group gallery-link-icon"></i> All </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="space">
+                                    <i class="fas fa-solid fa-rocket gallery-link-icon"></i> Space </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="nature">
+                                    <i class="fas fa-leaf gallery-link-icon"></i> Nature </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="animal">
+                                    <i class="fas fa-paw gallery-link-icon"></i> Animals </a>
+                            </li>
+                            <li>
+                                <a href="#" class="gallery-link" data-filter="building">
+                                    <i class="far fa-building gallery-link-icon"></i> Buildings </a>
+                            </li>
+                        </ul>
+                        <p> This gallery has 4 or more pages of photos, with each thumbnail having a hover effect.
+                            Different icons are used for different categories. </p>
+                        <p> Proin lacus enim, finibus sed magna a, molestie lacinia est. Maecenas id dolor lorem. Donec
+                            sodales ex velit. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="testimonials" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup"> return home <i class="fas fa-times"></i>
+            </a>
+            <div class="testimonials-inner">
+                <h2 class="color-gray testimonial-col page-title">Testimonials</h2>
+                <div class="row testimonial-row">
+                    <div class="col testimonial-col">
+                        <p> Seafoam Dreams is a free website template by <a rel="nofollow" href="https://lindseyk.dev"
+                                class="color-primary">Lindsey K</a> website. You are allowed to use it for commercial
+                            purpose. You can convert this template as a CMS theme or a custom website builder template.
+                        </p>
+                        <em class="mb-30 color-light-gray"> You may support me by telling your friends about
+                            lindseys site. Feel free to contact me if you have any questions. Oh and I am actively seeking work also! </em>
+                        <p> In tempor felis vitae nulla feugiat aliquam. Vivamus vitae congue mi. Sed maximus velit
+                            vestibulum nisl condimentum hendrerit. </p>
+                    </div>
+                    <div class="col testimonial-col testimonial-col-2">
+                        <img src="img/testimonial-01.jpg" alt="Image" class="mb-30">
+                        <blockquote>
+                            <p> "Suspendisse eu mollis diam, at ullamcorper diam. Ut sit amet arcu metus. Nullam mattis
+                                eros eget." by <span class="color-primary">George, Chief Editor</span>
+                            </p>
+                        </blockquote>
+                        <blockquote class="mb-50">
+                            <p> "Quisque et lorem accumsan, sollicitudin dolor vel, facilisis eros. Donec aliquet felis
+                                in mollis egestas." by <span class="color-primary">Mary, CEO of Web</span>
+                            </p>
+                        </blockquote>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mfp-prevent-close btn-contact"> Contact Us </a>
+                        </div>
+                    </div>
+                    <div class="col testimonial-col testimonial-col-2">
+                        <p> Duis sapien diam, eleifend eget vehicula sed, convallis sit amet elit. Aenean condimentum
+                            vulputate porta. </p>
+                        <p> Mauris accumsan erat ante, id sagittis felis gravida vitae. Sed iaculis tincidunt neque, a
+                            molestie magna vehicula at. </p>
+                        <p> Phasellus ornare magna nec nulla pharetra, nec tristique elit lobortis. </p>
+                        <img src="img/testimonial-02.jpg" alt="Image" class="mt-35">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup"> return home <i class="fas fa-times"></i>
+            </a>
+            <h2 class="color-primary about-col mb-40 page-title">About Seafoam Dreams</h2>
+            <div class="row about-row">
+                <div class="col about-col about-left">
+                    <img src="img/about.jpg" alt="Image" class="mb-30">
+                    <p class="mb-40"> Suspendisse sit amet pellentesque nunc. Vivamus fringilla tellus finibus lacus
+                        blandit, siet amet aliquet augue sagittis. Duis nec auctor felis, nec ornare ex. In non ante
+                        ligula. </p>
+                    <p class="mb-40"> Curabitur non augue dignissim est pulvibar lobortis. Nunc vulputate, mi vel cursus
+                        mollis, justo mauris rutrum dui, id egestas ante ligula id nunc. Interdum et malesuada fames ac
+                        ante ipsum primis in faucibus. </p>
+                </div>
+                <div class="col about-col">
+                    <p class="mb-40"> You are NOT allowed to re-distribute this template ZIP file on any website that
+                        <span class="color-primary">collects and reposts</span> free templates from many different
+                        websites. </p>
+                    <p class="mb-40"> Pellentesque vitae ipsum vel risus molestie cursus nec quis lectus. Duis egestas
+                        lorem eu nisi finibus, sit amet elementum lacus pretium. In tempor felis vitae nulla feugiat
+                        aliquam. </p>
+                    <p class="mb-40"> If you need a working HTML contact form, please visit our <a rel="nofollow"
+                            href="https://lindseyk.dev" target="_parent">contact page</a>. </p>
+                    <a href="#" class="btn btn-primary mfp-prevent-close btn-contact mb-40"> Contact Us </a>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="popup mfp-with-anim mfp-hide bg-gray">
+            <a href="#" class="close-popup"> return home <i class="fas fa-times"></i>
+            </a>
+            <h2 class="contact-col color-primary page-title mb-40">Contact Us</h2>
+            <div class="row contact-row">
+                <div class="col contact-col">
+                    <form id="contact-form" action="https://formspree.io/f/xrgvoovo" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control rounded-0" placeholder="Full Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control rounded-0" placeholder="Email"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="contact-select" name="inquiry">
+                                <option value="-">Subject</option>
+                                <option value="sales">Sales &amp; Marketing</option>
+                                <option value="creative">Creative Design</option>
+                                <option value="uiux">UI / UX</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message"
+                                required></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-primary">Send it!</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col contact-col contact-col-r">
+                    <!-- Map -->
+                    <div class="mapouter mb-40">
+                        <div class="gmap_canvas">
+                            <iframe width="400" height="520" id="gmap_canvas"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103494.68728172884!2d-78.72745637983547!3d35.84387898053099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1681550971063!5m2!1sen!2sus"
+                                frameborder="0" marginheight="0"></iframe>
+                        </div>
+                    </div>
+                    <!-- Address -->
+                    <address class="mb-40"> Downtown, <br> Raleigh, NC, USA </address>
+                    <!-- Links -->
+                    <ul class="contact-links">
+                        <li>
+                            <a href="tel:0100200340">
+                                <i class="fas fa-phone contact-link-icon"></i> Tel: 010-020-0340 </a>
+                        </li>
+                        <li>
+                            <a href="mailto:lindseykdev@gmail.com">
+                                <i class="fas fa-at contact-link-icon"></i> Email: info@company.com </a>
+                        </li>
+                        <li>
+                            <a href="https://www.lindseyk.dev">
+                                <i class="fas fa-link contact-link-icon"></i> URL: www.lindseyk.dev </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <span>Copyright &copy; 2023 </span>
+        <span>
+            <i class="fa-solid fa-code"></i> with <i class="fa-regular fa-heart"></i> by <a href="https://lindseyk.dev"
+                title="free website templates" target="_parent" rel="nofollow">Lindsey</a>
+        </span>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

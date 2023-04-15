@@ -1,0 +1,294 @@
+// ==========================================================================
+// Modal
+// ==========================================================================
+
+.close {
+  &-popup {
+    text-align: right;
+    display: block;
+  }
+
+  &-popup i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.intro-pad {
+  padding: 40px 55px 50px;
+}
+
+.intro-col-l {
+  margin-right: 40px;
+}
+
+/* text-based popup styling */
+
+.popup {
+  position: relative;
+  padding: 12px 10px 35px;
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a.link-effect::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  background-color: #5f5f5f;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: -moz-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: -ms-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: -o-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover.link-effect::after {
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -o-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: -moz-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: -ms-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: -o-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+figure.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+figure.effect-chico:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-chico figcaption {
+  padding: 1em;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+figure.effect-chico figcaption::before {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  border: 1px solid $white;
+  content: "";
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-chico h2 {
+  padding: 20% 0 20px 0;
+}
+
+figure.effect-chico p {
+  color: $white;
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Testimonials */
+.testimonials-inner {
+  padding: 0 20px 30px;
+}
+
+.testimonial-col {
+  flex: 0 0 33.3334%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* About */
+.mapouter {
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 250px;
+  width: 100%;
+}
+
+.about-col {
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 500px;
+}
+
+/* Contact */
+#contact {
+  padding-bottom: 65px;
+}
+
+.contact {
+  &-col {
+    flex: 0 0 50%;
+    padding-left: 40px;
+  }
+
+  &-col-r {
+    padding-left: 0;
+    padding-right: 30px;
+  }
+
+  &-form {
+    max-width: 350px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.form {
+  &-control {
+    font-family: $font-family--primary;
+    font-size: 1rem;
+    border: 1px solid $iron;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+  }
+
+  &-group {
+    margin-bottom: 25px;
+  }
+}
+
+select:not([multiple]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-image: url(../img/select-arrow.png);
+  padding: 14px 20px;
+  padding-right: 20px;
+  color: #666;
+}
+
+address {
+  font-style: normal;
+}
+
+@media (max-width: 850px) {
+  .contact {
+    &-row {
+      flex-direction: column;
+    }
+
+    &-col {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    &-form {
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: $break-sm) {
+  .about-row {
+    flex-direction: column;
+  }
+  .about-col {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: $break-xl) {
+  .main-nav ul {
+    max-width: 976px;
+  }
+}
+
+@media (max-width: $break-lg) {
+  .main-nav ul {
+    max-width: 732px;
+  }
+    .testimonial-row {
+    flex-wrap: wrap;
+  }
+  .testimonial-col {
+    flex: 100%;
+    margin-bottom: 50px;
+  }
+
+  .testimonial-col:last-child {
+    margin-bottom: 0;
+  }
+
+  .testimonial-col-2 {
+    flex: 50%;
+  }
+}
+
+@media (max-width: $break-md) {
+  .main-nav ul {
+    max-width: 488px;
+  }
+}
+
+@media (max-width: $break-xs) {
+  .main-nav ul {
+    max-width: 244px;
+  }
+  .testimonial-col-2 {
+    flex: 100%;
+  }
+}

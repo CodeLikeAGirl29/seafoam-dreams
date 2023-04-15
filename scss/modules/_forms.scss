@@ -1,0 +1,83 @@
+// ==========================================================================
+// Form Elements
+// ==========================================================================
+
+#contact {
+  padding-bottom: 65px;
+}
+.contact-col {
+  flex: 0 0 50%;
+  padding-left: 40px;
+}
+
+.contact-col-r {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.contact-form {
+  max-width: 350px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-row {
+  max-width: 1045px;
+}
+
+.form-control {
+  font-family: $font-family--primary;
+  font-size: 1.2rem;
+  border: 1px solid $iron;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+select:not([multiple]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  background-image: url(../img/select-arrow.png);
+  padding: 14px 20px;
+  padding-right: 20px;
+  color: #666;
+}
+
+.contact-links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contact-link-icon {
+  margin-right: 15px;
+}
+
+address {
+  font-style: normal;
+}
+
+@media (max-width: $break-md) {
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,33 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-left: 130px;
+}
+
+#video-container {
+  max-height: 400px;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+}
+
+#video-control-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  color: #e1e1e1;
+}

@@ -1,0 +1,64 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+
+$font-url--google: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap";
+$font-family--primary: "Source Sans Pro", sans-serif;
+$font-family--secondary: "Montserrat", sans-serif;
+
+// Descriptive Base Colors
+
+$white: #fff;
+$ghost-white: #f8f8ff;
+$black: #0b0b0b;
+
+$grey: #666768;
+$grey-2: #98999a;
+$light-grey: #9e9fa0;
+$silver: #848586;
+$charcoal: #333;
+$iron: #d5d6d7;
+
+$brilliant-azure: #309afd;
+$moonstone: #3299cd;
+$pool-blue: #49b4e9;
+$steel-blue: #3085a3;
+
+// Color Palette
+$color-palettes: (
+  grey: (
+    xx-light: lighten($grey, 43%),
+    x-light: lighten($grey, 35%),
+    light: lighten($grey, 12%),
+    base: $grey,
+    dark: darken($grey, 8%),
+    x-dark: darken($grey, 16%),
+  ),
+);
+
+// Text
+
+$base__font-size: 16px;
+$base__line: 24px;
+$letter-space: 1px;
+
+// =====================================
+// Media Queries
+// =====================================
+
+// Small tablets and large smartphones (landscape view)
+$break-xs: 635px;
+
+// Small tablets (portrait view)
+$break-sm: 700px;
+
+// Tablets and small desktops
+$break-md: 776px;
+
+// Larger tablets and desktops
+$break-lg: 992px;
+
+// Large tablets and desktops
+$break-xl: 1200px;
