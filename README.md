@@ -21,3 +21,7 @@ Overall, "Seafoam Dreams" with Sass sounds like an exciting and creative project
 ![github pages](https://camo.githubusercontent.com/537f0cf35d92693f01c2a3bd4de8f2e5b0d8666c0a96df4bbd91e6842862f69b/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d4769744875622b506167657326636f6c6f723d323232323232266c6f676f3d4769744875622b5061676573266c6f676f436f6c6f723d464646464646266c6162656c3d)
 
 ![jquery](https://camo.githubusercontent.com/fd87758fc59a55844627fb6067a253aa4e35da509789a55be28311b0a09eb6cf/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d6a517565727926636f6c6f723d303736394144266c6f676f3d6a5175657279266c6f676f436f6c6f723d464646464646266c6162656c3d)
+
+The ocean is a vast and mysterious world that covers more than 70% of the Earth's surface. It's a place of incredible beauty and diversity, with an abundance of marine life and unique ecosystems. From the coral reefs of the tropics to the icy waters of the poles, the ocean is home to countless fascinating creatures and awe-inspiring natural wonders.
+
+So let's check it out!
